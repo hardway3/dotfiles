@@ -1,0 +1,59 @@
+# DIRECTORY SETTINGS
+  mpd_music_dir = "/home/hardway/Music"
+#  lyrics_directory="~/.ncmpcpp/lyrics" 
+#mpd_host = "127.0.0.1"
+#mpd_port = "6601"
+execute_on_song_change="/home/hardway/.ncmpcpp/art.sh"
+#execute_on_song_change = "bash /home/hardway/.ncmpcpp/mpd-notification"
+# Visualizer
+#visualizer_look = "∙▋"
+#visualizer_look = "●│"
+#visualizer_look = "●▉"
+#visualizer_look = "◈◈"
+visualizer_look = "∙│"
+#visualizer_color = "white"
+visualizer_type = "spectrum" (spectrum/wave)
+
+# BEHAVIOUR  
+  mpd_crossfade_time ="3"
+  mpd_disable_highlight_delay="3"
+  autocenter_mode = "yes"
+  centered_cursor = "yes"
+  display_screens_numbers_on_start="no"
+  mouse_support = "no"
+ 
+# USER INTERFACE
+progressbar_look = "─╼─"
+progressbar_elapsed_color = red
+  titles_visibility = "no"
+  discard_colors_if_item_is_selected = "yes"
+  clock_display_seconds="yes"
+  display_bitrace="no"
+  empty_tag_marker="--"
+  playlist+shorten_total_times="yes"
+ 
+# USER INTERFACE - PLAYLIST
+  browser_playlist_prefix="$5[LIST] $9"
+#song_list_format = " $4%a $5//$8 %t"
+#song_list_format = " $7%l  $2%t $R$5%a "
+song_status_format = "$b$7♫ $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+#song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+  selected_item_prefix="$2"
+  selected_item_suffix="$9"
+#song_columns_list_format = "(6)[]{} (23)[red]{a} (26)[yellow]{t|f} (40)[green]{b} (4)[blue]{l}"
+enable_window_title = "yes"
+# COLOR
+  color1              = "yellow"
+  color2              = "white"
+  header_window_color = "yellow"
+  main_window_color   = "white"
+  main_window_highlight_color = "yellow"
+  statusbar_color     = "white"
+  progressbar_color   = "white"
+  empty_tag_color     = "blue"
+  state_line_color    = "white"
+  state_flags_color   = "white"
+  active_column_color = "yellow"
+  main_window_highlight_color    = "yellow"
+  alternative_ui_separator_color = "white"
+
