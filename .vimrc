@@ -1293,8 +1293,10 @@ function! s:coc_config() abort
     \   'command': 'ccls',
     \   'filetypes': ['c', 'cpp', 'objc', 'objcpp'],
     \   'rootPatterns': ['.ccls', 'compile_commands.json'] + root_patterns,
-    \   'initializationOptions': {
-    \     'cacheDirectory': '/tmp/ccls'
+    \   "initializationOptions": {
+    \     "cache": {
+    \       "directory": "/tmp/.ccls-cache"
+    \     }
     \   }
     \ }
   endif
