@@ -7,7 +7,7 @@ killall -q polybar
 while pgrep -x polybar >/dev/null; do sleep 1; done
 
 # Launch bar1 and bar2
-polybar -r top #& #toolbar #& polybar bottom
+polybar -r main #& #toolbar #& polybar bottom
 #polybar -r toolbar &
 
 echo "Bars launched..."

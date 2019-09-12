@@ -9,7 +9,7 @@ pac=$(checkupdates | wc -l)
 aur=$(yay -Qau | wc -l)
 
 if [[ -n "$pac" ]];then
-        echo "$aur  $pac"
+        echo "$aur  $pac"
 else
         echo " %{F#BYELLOW} " " 0 %{F-}"
 fi
