@@ -2,7 +2,7 @@
 
 
 ## Screenshot
-# ![screenshot](Screenshot/mpd-ncmpcpp-screenshot.png)
+# ![screenshot](Screenshot/rofi-screenshot.png)
 # ![screenshot](Screenshot/vim-screenshot.png)
 
 ## Wallpaper
